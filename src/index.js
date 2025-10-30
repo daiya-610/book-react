@@ -5,10 +5,10 @@ import TitledPanel from "./02/TitledPanel";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <TitledPanel
-    title={<p>2025/10/29</p>}
-    body={<p>勉強スタート</p>}
-  ></TitledPanel>
+  <TitledPanel>
+    <p key="title">2025/10/29</p>
+    <p key="body">勉強スタート</p>
+  </TitledPanel>
 );
 
 /** TitledPanel.js */
