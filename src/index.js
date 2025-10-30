@@ -1,35 +1,44 @@
-/** TypeProp.js */
-import TypeProp, { Member } from "./05/TypeProp";
+/** StateBasic.js */
+import StateBasic from "./06/StateBasic";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  // 正しい例 prop1
-  // <TypeProp prop1={new Member()} />
-  // 誤った例 prop1
-  // <TypeProp prop1="hoge" />
-  // 正しい例 prop2
-  // <TypeProp prop2="男性" />
-  // 誤った例 prop2
-  // <TypeProp prop2="hoge" />
-  // 正しい例 prop3
-  // <TypeProp prop3="山田太郎" />
-  // 誤った例 prop3
-  // <TypeProp prop3={new Member()} />
-  // 正しい例 prop4
-  // <TypeProp prop4={[15, 333]} />
-  // 誤った例 prop4
-  // <TypeProp prop4={["山田太郎", 333]} />
-  // 正しい例 prop5
-  // <TypeProp prop5={{ 山田太郎: 15, 山田花子: 30 }} />
-  // 誤った例 prop5
-  // <TypeProp prop5={{ 山田太郎: 15, 山田花子: "十三" }} />
-  // 正しい例 prop6
-  // <TypeProp prop6={{ name: "山田太郎", age: 15, sex: "男性" }} />
-  // 誤った例 prop6
-  <TypeProp prop6={{ name: "山田太郎", age: 15 }} />
-);
+root.render(<StateBasic init={0} />);
+/** StateBasic.js */
+
+/** TypeProp.js */
+// import TypeProp, { Member } from "./05/TypeProp";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+// 正しい例 prop1
+// <TypeProp prop1={new Member()} />
+// 誤った例 prop1
+// <TypeProp prop1="hoge" />
+// 正しい例 prop2
+// <TypeProp prop2="男性" />
+// 誤った例 prop2
+// <TypeProp prop2="hoge" />
+// 正しい例 prop3
+// <TypeProp prop3="山田太郎" />
+// 誤った例 prop3
+// <TypeProp prop3={new Member()} />
+// 正しい例 prop4
+// <TypeProp prop4={[15, 333]} />
+// 誤った例 prop4
+// <TypeProp prop4={["山田太郎", 333]} />
+// 正しい例 prop5
+// <TypeProp prop5={{ 山田太郎: 15, 山田花子: 30 }} />
+// 誤った例 prop5
+// <TypeProp prop5={{ 山田太郎: 15, 山田花子: "十三" }} />
+// 正しい例 prop6
+// <TypeProp prop6={{ name: "山田太郎", age: 15, sex: "男性" }} />
+// 誤った例 prop6
+//   <TypeProp prop6={{ name: "山田太郎", age: 15 }} />
+// );
 /** TypeProp.js */
 
 /** MyHello.js */
