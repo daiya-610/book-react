@@ -1,10 +1,19 @@
-/** StateBasic.js */
-import StateBasic from "./06/StateBasic";
+/** StateParent.js */
+import StateParent from "./06/StateParent";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<StateBasic init={0} />);
+root.render(<StateParent />);
+/** StateParent.js */
+
+/** StateBasic.js */
+// import StateBasic from "./06/StateBasic";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<StateBasic init={0} />);
 /** StateBasic.js */
 
 /** TypeProp.js */

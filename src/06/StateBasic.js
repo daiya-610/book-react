@@ -1,5 +1,4 @@
 import { useState } from "react";
-import StateCounter from "./StateCounter";
 
 export default function StateBasic({ init }) {
   const [count, setCount] = useState(init);
