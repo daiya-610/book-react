@@ -1,26 +1,35 @@
 /** ListTemplate.js */
-import books from "./03/books";
-import ListTemplate from "./03/ListTemplate";
+import MyHello from "./04/MyHello";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  // render属性として描画関数を渡す
-  <ListTemplate
-    src={books}
-    render={(elem) => {
-      <>
-        <dt>
-          <a href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`}>
-            {elem.title} ({elem.price}円)
-          </a>
-        </dt>
-        <dd>{elem.summary}</dd>
-      </>;
-    }}
-  />
-);
+root.render(<MyHello />);
+/** ListTemplate.js */
+
+/** ListTemplate.js */
+// import books from "./03/books";
+// import ListTemplate from "./03/ListTemplate";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   // render属性として描画関数を渡す
+//   <ListTemplate
+//     src={books}
+//     render={(elem) => {
+//       <>
+//         <dt>
+//           <a href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`}>
+//             {elem.title} ({elem.price}円)
+//           </a>
+//         </dt>
+//         <dd>{elem.summary}</dd>
+//       </>;
+//     }}
+//   />
+// );
 /** ListTemplate.js */
 
 /** TitledPanel.js */
