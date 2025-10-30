@@ -1,13 +1,15 @@
 /** ListTemplate.js */
-import books from "./03/books.json";
+import books from "./03/books";
+import ListTemplate from "./03/ListTemplate";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import ListTemplate from "./03/ListTemplate";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ListTemplate src={books}>
-    {(elem) => {
+  // render属性として描画関数を渡す
+  <ListTemplate
+    src={books}
+    render={(elem) => {
       <>
         <dt>
           <a href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`}>
@@ -17,7 +19,7 @@ root.render(
         <dd>{elem.summary}</dd>
       </>;
     }}
-  </ListTemplate>
+  />
 );
 /** ListTemplate.js */
 
