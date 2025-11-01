@@ -1,10 +1,25 @@
-/** StateParent.js */
-import StateParent from "./06/StateParent";
+/** EventMouse.js */
+import EventMouse from "./07/EventMouse";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<StateParent />);
+root.render(
+  <EventMouse
+    alt="ロゴ"
+    beforeSrc="https://www.web-deli.com/image/linkbanner_l.gif"
+    afterSrc="https://www.web-deli.com/image/home_chara.gif"
+  />
+);
+/** EventMouse.js */
+
+/** StateParent.js */
+// import StateParent from "./06/StateParent";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<StateParent />);
 /** StateParent.js */
 
 /** StateBasic.js */
