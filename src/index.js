@@ -1,9 +1,17 @@
-/** EventObj.js */
-import EventObj from "./10/EventObj";
+/** EventPoint.js */
+import EventPoint from "./11/EventPoint";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventObj />);
+root.render(<EventPoint />);
+/** EventPoint.js */
+
+/** EventObj.js */
+// import EventObj from "./10/EventObj";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<EventObj />);
 /** EventObj.js */
 
 /** EventError.js */
