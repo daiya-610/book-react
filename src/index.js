@@ -1,9 +1,17 @@
-/** EventError.js */
-import EventError from "./09/EventError";
+/** EventObj.js */
+import EventObj from "./10/EventObj";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventError src="./image/wings.jpg" alt="エラー画像" />);
+root.render(<EventObj />);
+/** EventObj.js */
+
+/** EventError.js */
+// import EventError from "./09/EventError";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<EventError src="./image/wings.jpg" alt="エラー画像" />);
 /** EventError.js */
 
 // /** EventCompare.js */
