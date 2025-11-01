@@ -1,16 +1,25 @@
-/** EventMouse.js */
-import EventMouse from "./07/EventMouse";
+/** EventCompare.js */
+import EventCompare from "./08/EventCompare";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <EventMouse
-    alt="ロゴ"
-    beforeSrc="https://www.web-deli.com/image/linkbanner_l.gif"
-    afterSrc="https://www.web-deli.com/image/home_chara.gif"
-  />
-);
+root.render(<EventCompare />);
+/** EventCompare.js */
+
+/** EventMouse.js */
+// import EventMouse from "./07/EventMouse";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <EventMouse
+//     alt="ロゴ"
+//     beforeSrc="https://www.web-deli.com/image/linkbanner_l.gif"
+//     afterSrc="https://www.web-deli.com/image/home_chara.gif"
+//   />
+// );
 /** EventMouse.js */
 
 /** StateParent.js */
