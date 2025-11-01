@@ -1,9 +1,17 @@
-/** EventPoint.js */
-import EventPoint from "./11/EventPoint";
+/** EventKey.js */
+import EventKey from "./12/EventKey";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventPoint />);
+root.render(<EventKey />);
+/** EventKey.js */
+
+/** EventPoint.js */
+// import EventPoint from "./11/EventPoint";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<EventPoint />);
 /** EventPoint.js */
 
 /** EventObj.js */
