@@ -1,10 +1,18 @@
-/** EventPropagation.js */
-import EventPropagation from "./14/EventPropagation";
+/** EventOnce.js */
+import EventOnce from "./15/EventOnce";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventPropagation />);
-/** EventArgs2.js */
+root.render(<EventOnce />);
+/** EventOnce.js */
+
+/** EventPropagation.js */
+// import EventPropagation from "./14/EventPropagation";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<EventPropagation />);
+/** EventPropagation.js */
 
 /** EventArgs2.js */
 // import EventArgs2 from "./13/EventArgs2";
