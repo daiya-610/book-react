@@ -1,9 +1,17 @@
-/** EventArgs2.js */
-import EventArgs2 from "./13/EventArgs2";
+/** EventPropagation.js */
+import EventPropagation from "./14/EventPropagation";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventArgs2 />);
+root.render(<EventPropagation />);
+/** EventArgs2.js */
+
+/** EventArgs2.js */
+// import EventArgs2 from "./13/EventArgs2";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<EventArgs2 />);
 /** EventArgs2.js */
 
 /** EventArgs.js */
