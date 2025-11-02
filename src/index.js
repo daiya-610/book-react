@@ -1,10 +1,10 @@
-/** EventaPassive.js */
-import EventaPassive from "./16/EventaPassive";
+/** EventPassive.js */
+import EventPassive from "./16/EventPassive";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventaPassive />);
-/** EventaPassive.js */
+root.render(<EventPassive />);
+/** EventPassive.js */
 
 /** EventOnce.js */
 // import EventOnce from "./15/EventOnce";
