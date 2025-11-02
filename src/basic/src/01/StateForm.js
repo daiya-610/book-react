@@ -9,7 +9,7 @@ export default function StateForm() {
   // フォーム要素の変更をStateに反映
   const handleForm = (e) => {
     setForm({
-      ...form,
+      ...form, // name: form.name, age: form.age
       [e.target.name]: e.target.value,
     });
   };
