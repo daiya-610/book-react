@@ -1,9 +1,17 @@
-/** EventOnce.js */
-import EventOnce from "./15/EventOnce";
+/** EventaPassive.js */
+import EventaPassive from "./16/EventaPassive";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<EventOnce />);
+root.render(<EventaPassive />);
+/** EventaPassive.js */
+
+/** EventOnce.js */
+// import EventOnce from "./15/EventOnce";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<EventOnce />);
 /** EventOnce.js */
 
 /** EventPropagation.js */
