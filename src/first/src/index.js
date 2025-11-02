@@ -1,5 +1,5 @@
 /** EventPassive.js */
-import EventPassive from "./first/src/16/EventPassive";
+import EventPassive from "./16/EventPassive";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
