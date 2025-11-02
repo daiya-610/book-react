@@ -20,6 +20,7 @@
 
 # 導入編のキャッシュ
 /src/first/node_modules/.cache*
+/src/basic/node_modules/.cache*
 
 npm-debug.log*
 yarn-debug.log*
