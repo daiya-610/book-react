@@ -1,9 +1,17 @@
 /** StateTodo.js */
-import StateTodo from "./11/todo-done/StateTodo";
+import StateTodo from "./11/todo-remove/StateTodo";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<StateTodo />);
+/** StateTodo.js */
+
+/** StateTodo.js */
+// import StateTodo from "./11/todo-done/StateTodo";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<StateTodo />);
 /** StateTodo.js */
 
 /** StateTodo.js */
