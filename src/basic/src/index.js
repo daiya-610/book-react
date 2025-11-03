@@ -1,9 +1,17 @@
-/** StateNestImmer.js */
-import StateNestImmer from "./10/StateNestImmer";
+/** StateNestImmer2.js */
+import StateNestImmer2 from "./10/StateNestImmer2";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<StateNestImmer />);
+root.render(<StateNestImmer2 />);
+/** StateNestImmer2.js */
+
+/** StateNestImmer.js */
+// import StateNestImmer from "./10/StateNestImmer";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<StateNestImmer />);
 /** StateNestImmer.js */
 
 /** StateNest.js */
