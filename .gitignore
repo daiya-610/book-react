@@ -18,10 +18,13 @@
 .env.test.local
 .env.production.local
 
-# 導入編のキャッシュ
-/src/first/node_modules/.cache*
-/src/basic/node_modules/.cache*
+# node_module関係
+/src/first/node_modules
+/src/basic/node_modules
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/first/package-lock.json
+/src/basic/package-lock.json
