@@ -1,9 +1,17 @@
-/** FormSelect.js */
-import FormSelect from "./04/FormSelect";
+/** FormList.js */
+import FormList from "./05/FormList";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FormSelect />);
+root.render(<FormList />);
+/** FormList.js */
+
+/** FormSelect.js */
+// import FormSelect from "./04/FormSelect";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<FormSelect />);
 /** FormSelect.js */
 
 /** FormTextarea.js */
