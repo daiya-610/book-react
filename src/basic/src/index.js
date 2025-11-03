@@ -1,10 +1,10 @@
-/** FormRadio.js */
-import FormRadio from "./06/FormRadio";
+/** FormCheck.js */
+import FormCheck from "./07/FormCheck";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FormRadio />);
-/** FormRadio.js */
+root.render(<FormCheck />);
+/** FormCheck.js */
 
 /** FormList.js */
 // import FormList from "./05/FormList";
