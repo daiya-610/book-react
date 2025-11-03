@@ -1,9 +1,17 @@
-/** FormList.js */
-import FormList from "./05/FormList";
+/** FormRadio.js */
+import FormRadio from "./06/FormRadio";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FormList />);
+root.render(<FormRadio />);
+/** FormRadio.js */
+
+/** FormList.js */
+// import FormList from "./05/FormList";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<FormList />);
 /** FormList.js */
 
 /** FormSelect.js */
