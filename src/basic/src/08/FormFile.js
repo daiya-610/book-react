@@ -21,7 +21,7 @@ export default function FormFile() {
       console.log(`ファイル名：${f.name}`);
       console.log(`種類：${f.type}`);
       console.log(`サイズ：${Math.trunc(f.size / 1024)}KB`);
-      console.log(`最終更新日：${date}`);
+      console.log(`最終更新日：${date.toLocaleString()}`);
     }
   }
 
