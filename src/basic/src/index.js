@@ -1,9 +1,17 @@
-/** FormCheck.js */
-import FormCheck from "./07/FormCheck";
+/** FormCheckMulti.js */
+import FormCheckMulti from "./07/FormCheckMulti";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<FormCheck />);
+root.render(<FormCheckMulti />);
+/** FormCheckMulti.js */
+
+/** FormCheck.js */
+// import FormCheck from "./07/FormCheck";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<FormCheck />);
 /** FormCheck.js */
 
 /** FormList.js */
