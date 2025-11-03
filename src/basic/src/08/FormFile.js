@@ -17,10 +17,11 @@ export default function FormFile() {
        * size: ファイルサイズ（単位はバイト）
        * lastModified: 最終更新日時（1970/01/01 00:00:00からの経過ミリ秒）
        */
+      const date = new Date(f.lastModified);
       console.log(`ファイル名：${f.name}`);
       console.log(`種類：${f.type}`);
       console.log(`サイズ：${Math.trunc(f.size / 1024)}KB`);
-      console.log(`最終更新日：${f.lastModified}`);
+      console.log(`最終更新日：${date}`);
     }
   }
 
