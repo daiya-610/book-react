@@ -1,9 +1,17 @@
 /** FormBasic.js */
-import FormBasic from "./12/FormBasic";
+import FormBasic from "./12/form-validate-origin/FormBasic";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<FormBasic />);
+/** FormBasic.js */
+
+/** FormBasic.js */
+// import FormBasic from "./12/FormBasic";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<FormBasic />);
 /** FormBasic.js */
 
 /** StateTodo.js */
