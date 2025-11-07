@@ -23,6 +23,9 @@ const schema = yup.object({
   name: yup
     .string()
     .label("名前")
+    .trim()
+    .lowercase() // 半角英数字に変換(大文字も小文字に変換)
+    // .transform((value, orgValue) => value.normalize("NFKC")) // 独自の変換ルール - 全角英数字を半角に変換（大文字のまま）
     .required("${label}は必須です。")
     .max(20, "${label}は${max}文字以内で入力してください。"),
   gender: yup.string().label("性別").required("${label}は必須です。"),
