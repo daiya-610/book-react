@@ -1,9 +1,17 @@
 /** FormYup.js */
-import FormYup from "./13/form-origin-yup/FormYup";
+import FormYup from "./13/form-yup-export/FormYup";
 import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<FormYup />);
+/** FormYup.js */
+
+/** FormYup.js */
+// import FormYup from "./13/form-origin-yup/FormYup";
+// import ReactDOM from "react-dom/client";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<FormYup />);
 /** FormYup.js */
 
 /** FormYup.js */
