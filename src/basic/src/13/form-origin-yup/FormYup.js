@@ -2,6 +2,23 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
+// 独自のNGルールを追加
+yup.addMethod(yup.string, "ng", function () {
+  return this.test(
+    "ng",
+    ({ label }) => `${label}にNGワードが含まれています。`,
+    (value) => {
+      const ngs = ["暴力", "禁止", "グロ"];
+      for (const ng of ngs) {
+        if (value.includes(ng)) {
+          return false;
+        }
+      }
+      return true;
+    }
+  );
+});
+
 const schema = yup.object({
   name: yup
     .string()
@@ -19,21 +36,7 @@ const schema = yup.object({
     .label("備考")
     .required("${label}は必須です。")
     .min(10, "${label}は${min}文字以上で入力してください。")
-    .test(
-      "ng",
-      ({ label }) => `${label}にNGワードが含まれています。`,
-      (value) => {
-        // 不適切ワードを準備
-        const ngs = ["暴力", "禁止", "グロ"];
-        // 入力文字列に不適切ワードが含まれているかを判定
-        for (const ng of ngs) {
-          if (value.includes(ng)) {
-            return false;
-          }
-        }
-        return true;
-      }
-    ),
+    .ng(),
 });
 
 export default function FormYup() {
